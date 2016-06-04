@@ -5,7 +5,7 @@ Home: http://github.com/ActiveState/appdirs
 
 Package license: MIT License
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: A small Python module for determining appropriate platform-specific dirs
 
@@ -69,9 +69,15 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/appdirs-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/appdirs-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/appdirs-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/appdirs-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/appdirs-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/appdirs-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/appdirs/badges/version.svg)](https://anaconda.org/conda-forge/appdirs)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/appdirs/badges/downloads.svg)](https://anaconda.org/conda-forge/appdirs)
 
 
 Updating appdirs-feedstock
