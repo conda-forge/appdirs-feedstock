@@ -1,32 +1,35 @@
+{% set version = "1.4.2" %}
+
 package:
-    name: appdirs
-    version: 1.4.0
+  name: appdirs
+  version: {{ version }}
 
 source:
-    fn: appdirs-1.4.0.tar.gz
-    url: https://pypi.python.org/packages/source/a/appdirs/appdirs-1.4.0.tar.gz
-    md5: 1d17b4c9694ab84794e228f28dc3275b
+  fn: appdirs-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/a/appdirs/appdirs-{{ version }}.tar.gz
+  sha256: e2de7ae2b3be52542b711eacf4221683f1d2f7706a5550cb2c562ee4ba93ee74
 
 build:
-    number: 0
-    script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-    build:
-        - python
-        - setuptools
-    run:
-        - python
+  build:
+    - python
+    - setuptools
+  run:
+    - python
 
 test:
-    imports:
-        - appdirs
+  imports:
+    - appdirs
 
 about:
-    home: http://github.com/ActiveState/appdirs
-    license: MIT License
-    summary: A small Python module for determining appropriate platform-specific dirs
+  home: http://github.com/ActiveState/appdirs
+  license: MIT
+  license_file: LICENSE.txt
+  summary: 'A small Python module for determining appropriate platform-specific dirs.'
 
 extra:
-    recipe-maintainers:
-        - ocefpaf
+  recipe-maintainers:
+    - ocefpaf
