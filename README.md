@@ -3,11 +3,11 @@ About appdirs
 
 Home: http://github.com/ActiveState/appdirs
 
-Package license: MIT License
+Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: A small Python module for determining appropriate platform-specific dirs
+Summary: A small Python module for determining appropriate platform-specific dirs.
 
 
 
