@@ -14,9 +14,7 @@ Summary: A small Python module for determining appropriate platform-specific dir
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/appdirs-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/appdirs-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/appdirs-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/appdirs-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/appdirs-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/appdirs-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/appdirs-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/appdirs-feedstock)
 
 Current release info
 ====================
