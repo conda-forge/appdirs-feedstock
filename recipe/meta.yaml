@@ -1,4 +1,4 @@
-{% set version = "1.4.3" %}
+{% set version = "1.4.4" %}
 
 package:
   name: appdirs
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/a/appdirs/appdirs-{{ version }}.tar.gz
-  sha256: 9e5896d1372858f8dd3344faf4e5014d21849c756c8d5701f78f8a103b372d92
+  sha256: 7d5d0167b2b1ba821647616af46a749d1c653740dd0d2415100fe26e27afdf41
 
 build:
-  number: 1
+  number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -28,7 +28,7 @@ about:
   home: http://github.com/ActiveState/appdirs
   license: MIT
   license_file: LICENSE.txt
-  summary: 'A small Python module for determining appropriate platform-specific dirs.'
+  summary: A small Python module for determining appropriate platform-specific dirs.
 
 extra:
   recipe-maintainers:
