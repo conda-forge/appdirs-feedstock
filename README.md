@@ -5,11 +5,9 @@ Home: http://github.com/ActiveState/appdirs
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/appdirs-feedstock/blob/master/LICENSE.txt)
 
 Summary: A small Python module for determining appropriate platform-specific dirs.
-
-
 
 Current build status
 ====================
